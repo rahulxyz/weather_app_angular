@@ -1,0 +1,20 @@
+<div id="weather-info-today" class="">
+  <div class="row  d-flex align-items-center justify-content-center" id="top-date">
+    <img src={{options.iconUrl}} alt="">
+
+    <div>
+      <div>{{options.time}}</div>
+      <div>{{options.date | readableDate}}</div>
+    </div>
+
+  </div>
+
+  <div class="row d-flex align-items-center justify-content-center" id="middle-temperature">
+    <p>{{options.wind_kph}}&#x2191;</p>
+    <p class="display-1">{{options.temp_c}}&#176;</p>
+    <p>{{options.pressure_in}}&#x2193;</p>
+  </div>
+  <div class="row d-flex justify-content-center pr-3" id="bottom-text">
+    <p>{{options.weatherText}}</p>
+  </div>
+</div>

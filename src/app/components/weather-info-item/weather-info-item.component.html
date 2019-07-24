@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row justify-content-between" id="weather-item">
+    <div class="d-flex justify-content-center align-items-center col-4" id="weather-icon">
+      <img src={{forecastItem.day.condition.icon}} alt="">
+    </div>
+
+    <div class="col-8">
+      <div class="my-0 p-0 font-weight-lighter text-light">{{forecastItem.date | readableDate}}</div>
+      <div class="my-0 p-0  text-light" id="middle-item-text">{{forecastItem.day.condition.text}}</div>
+      <div class="my-0 p-0 font-weight-lighter text-light">&#x2191;{{forecastItem.day.maxtemp_c}}&#176;
+        &#x2193;{{forecastItem.day.mintemp_c}}&#176;</div>
+    </div>
+  </div>
+</div>

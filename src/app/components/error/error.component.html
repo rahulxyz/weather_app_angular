@@ -1,0 +1,14 @@
+<div [ngSwitch]="errorStatusCode">
+  <div *ngSwitchCase="500" class="border border-light rounded-lg px-2">
+    <p class="display-4"><i class="fas fa-exclamation-triangle mr-2"></i>Server Error</p>
+  </div>
+  <div *ngSwitchCase="400">
+    <p>Server was unable to process request</p>
+  </div>
+  <div *ngSwitchCase="404">
+    <p>Please try later</p>
+  </div>
+  <div *ngSwitchCase="204">
+    <p>Data Not Available</p>
+  </div>
+</div>

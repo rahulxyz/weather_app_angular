@@ -1,0 +1,9 @@
+.search-icon{
+    position: absolute;
+    right: 27px;
+    top: 7px;
+}
+
+.searchTag{
+    border-radius: 40px !important;
+}
