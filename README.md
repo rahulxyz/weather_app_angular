@@ -1,6 +1,17 @@
 # WeatherApp
 
+Application to fetch weather info by country developed using Angular, Redux, Bootstrap.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+
+## Features
+
+- Fetch weather Info of Present Day and Forecast of 7 days
+- Search by Country
+- Redux for State Management
+- Filter Pipes
+- Progress Loader
+- Error handling
+- Responsive
 
 ## Development server
 
